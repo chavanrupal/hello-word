@@ -1,0 +1,21 @@
+package basic;
+import java.util.Scanner;
+public class Area {
+		public static void main(String args[])
+		{
+		int l,w,a;
+		Scanner sc=new Scanner(System.in);
+		{
+		System.out.println("Enter length=");
+		l=sc.nextInt();
+		}
+		{
+		System.out.println("Enter width=");
+		w=sc.nextInt();
+		}
+		a=l*w;
+		System.out.println("Area of REctangle is="+a);
+		
+	}
+	
+  }
